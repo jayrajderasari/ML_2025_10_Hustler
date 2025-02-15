@@ -1,0 +1,13 @@
+1. Tasks completed during the week
+
+The research team spent the previous week on intensive studies of person re-identification fundamental principles. We analyzed the research paper "Person Re-Identification in the Wild" to understand modern techniques and research datasets with their corresponding challenges on the task. Our research into previous works on person re-identification covered both various methodologies and feature extraction techniques and machine learning models that demonstrate successful applications. Through literature review we extracted both effective and ineffective aspects from current methods which directed our development of possible project strategies.
+
+We performed a thorough assessment of the problem definition which divided it into essential barriers and goals. Knowledge of these issues proves essential to build an effective solution. A review of different datasets was performed to determine which ones would be suitable for our research. The established foundation from this initial research period will enable us to construct a groundwork that supports the upcoming experimental work in the next few weeks.
+
+2. Tasks planned for the coming week
+
+Our upcoming project week includes assessing machine learning techniques that would best solve our problem statement through discussion and selection. A team meeting will take place for us to generate potential approaches which may incorporate deep learning solutions together with standard feature engineering methods to identify an ideal model selection. The process of algorithm and framework evaluation will help us identify the most suitable methodologies for our project implementation.
+
+We will conduct research to find multiple datasets suitable for training along with evaluation purposes. Our evaluation process focuses on checking how well the available datasets fulfill the specifications needed for our project. The preprocessing of our datasets represents a main priority because we intend to test normalization methods as well as data cleaning and augmentation techniques to optimize our model accuracy rate.
+
+The workflow efficiency will increase when we define responsibilities for each team member to achieve proper workforce distribution. Our workflow efficiency will improve through establishing defined roles and task assignments between team members for optimal labor division. We will create evaluation metrics that enable us to measure our model effectiveness in upcoming stages. Our initial experiments will get implemented through systematic efforts that will allow us to refine our approach according to preliminary results.
