@@ -7,7 +7,7 @@ import pandas as pd
 from skimage.io import imread
 
 # Define folder path
-folder_path = "./archive/train/"
+folder_path = "../archive/train/"
 
 # Initialize lists for storing feature data
 fourier_features = []
@@ -68,8 +68,9 @@ fourier_df = pd.DataFrame(fourier_features)
 wavelet_df = pd.DataFrame(wavelet_features_list)
 
 # Save to Excel
-with pd.ExcelWriter("image_features.xlsx") as writer:
+with pd.ExcelWriter("features_fourier.xlsx") as writer:
     fourier_df.to_excel(writer, sheet_name="Fourier Features", index=False)
+with pd.ExcelWriter("features_wavelet.xlsx") as writer:
     wavelet_df.to_excel(writer, sheet_name="Wavelet Features", index=False)
 
-print("Feature extraction completed. Data saved to image_features.xlsx")
+print("Feature extraction completed. Data saved to features_fourier.xlsx and features_wavelet.xlsx")
