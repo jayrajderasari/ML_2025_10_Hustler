@@ -1,0 +1,40 @@
+1. Tasks completed during the week
+
+Objective:
+Our objective for this week concentrated on extracting proper features from images for implementation in a Person Re-identification model. The method enables improved picture-based individual description and comparison for visual features.
+
+Fourier Transform Features:
+
+The research used 2D Fourier Transform (FFT) to analyze frequency domain features in the images.
+
+Extracted 3 main features:
+FFT Mean: Average value of the magnitude spectrum.
+FFT Variance: Variability in the frequency domain.
+FFT Energy: Total energy of the image in the frequency domain.
+
+Wavelet Transform Features:
+
+Used a 2D Haar Wavelet Transform to decompose the image into four sub-bands.
+
+For each sub-band, extracted:
+
+Mean: Average pixel value.
+Variance: Variation of pixel values.
+Energy: Sum of squared pixel values.
+
+cA_mean, cA_variance, cA_energy, cH_mean, cH_variance, cH_energy, cV_mean, cV_variance, cV_energy, cD_mean, cD_variance, cD_energy
+
+cA(Wavelet Approximation)
+cH(Horizontal Detail)
+cV(Vertical Detail)
+cD(Diagonal Detail)
+
+Data Storage and Organization:
+
+Collected features for each person and image in a structured format.
+Data was organized into two separate tables for Fourier and Wavelet features.
+Saved the extracted features to an Excel file for further analysis and model training.
+
+2. Tasks planned for the coming week
+
+The plan for the next week is to analyse the pre-processed data and understand implication and implementation of existing state of art models.
