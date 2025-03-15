@@ -1,0 +1,14 @@
+Weekly Report
+
+Work Completed This Week:
+The main objective of this week centered on developing solutions for the dimensionality curse that occurs frequently in machine learning feature spaces containing numerous dimensions. PCA analysis was implemented on the previously processed feature set to address this issue. Both wavelet transformation and Fourier transformation served preprocessing steps in extracting key features from data by recording the combination of time domain and frequency domain content. Our approach started with wavelet transformation when obtaining different frequency sub-bands followed by Fourier transformation for periodic component data analysis.
+
+After the transformation of feature data we moved to PCA to lower the number of dimensions in the dataset. The wavelet transformation directional components became a combined feature set that was used as an input for PCA processing. Through this process we were able to maintain significant explanatory features that explained the data variance yet removed unimportant ones. The main objective was to refine the feature dimension through data reduction which would enhance the performance of following predictive models by filtering out noisy and redundant information.
+
+Our optimized feature set successfully implemented PCA and establishes our readiness to move onto the next part of our project for machine learning model training.
+Plans for Next Week:
+During the subsequent week our primary task will involve training machine learning models with the processed information. Our data has better prospects in the next step since PCA enabled strong dimensionality reduction which yielded a streamlined and optimized feature set. The research team will attempt multiple machine learning techniques starting from standard SVM algorithms together with exploring advanced deep learning architecture approaches. Our post-processing feature set will undergo training with these prepared models to evaluate their identification capability within the person reidentification task.
+
+The proper evaluation process for our models includes utilizing accuracy and precision and recall and F1-score metrics to accurately assess model performance. The optimization process will use grid search and cross-validation techniques as a method to determine optimal hyperparameters. The experiments will test how multiple waves of feature transformation (wavelets alongside Fourier methods) affect performance during training.
+
+The primary objective for the upcoming week involves finishing development of the most effective model before optimizing it for deployment in actual use cases.
