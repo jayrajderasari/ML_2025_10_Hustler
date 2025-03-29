@@ -1,9 +1,20 @@
 Weekly Report:
 
-1. Tasks completed during the week:
+1.	Tasks completed during the week:
+For implementing and analyzing the rank matrix for person re-identification, this week. It gives us a sense of how, but not how well, our extracted features and transformations separate individuals by rank. We calculated rank values from similarity measures such as cosine similarity and Euclidean distance to determine how accurate the model’’s ranking is. It is this step that was necessary to understand how well we retrieve the correct matches from within the dataset.
 
-The previous week dedicated itself to studying results alongside report creation and presentation techniques as well as literature review efforts for documenting our approach effectiveness. The result analysis involved testing the effects of FFT and Wavelet Transform with PCA dimensionality reduction on previously applied feature extraction methods. These transformation methods showed their effectiveness in differentiating the individuals present in the data collection. Technological analysis included studies of how varying feature distribution characteristics affect the accuracy rates of person re-identification. This stage allowed us to identify the advantages and constraints that came with our extracted features.
+In addition, rank based performance is studied on feature transformations such as Linear Transform, FFT and Wavelet Transform with PCA. We were able to see how their feature distribution would impact on retrieval accuracy by comparing different feature distributions. In particular, we derived Cumulative Matching Characteristic (CMC) curves to characterize the model's capability in retrieving the relevant matches at different positions of the returned list.
 
-2. Tasks planned for the coming week:
+Also, we looked at rankings' precision from different feature selection methods. We presented some of the strengths and limitations of our approach and used them as a basis for future optimization. This work of this week makes it possible to better understand the relationship between feature representation and evaluation of similarity, which is an important step to refine its methodology.
 
-The main priority of our upcoming week involves similarity computation followed by evaluation. The project team will deploy two similarity evaluation techniques namely cosine similarity and Euclidean distance for performing effective comparison of extracted feature information. Our analysis will focus on rank accuracy evaluation because it determines the precision of correct match rankings from our model. The generation along with interpretation of Cumulative Matching Characteristic (CMC) curves will be essential because this method evaluates retrieval performance. Our selected evaluations enable the assessment of the chosen features and transformations' performance outcomes. The obtained results will let us fine-tune our method to make the model more precise and efficient. As we move ahead we will optimize the features while evaluating new assessment metrics that align with project requirements.
+
+2.	Tasks planned for the coming week:
+
+
+We will extend our evaluation metrics to include Mean Average Precision (mAP) as well. Cumulative Matching Characteristic (CMC) curves can reveal rank performance, but mAP will supply a clearer evaluation of both precision and recall of our model’s retrieval performance. This will help in a balanced evaluation of how good our approach generalizes to different datasets.
+
+We will also delve into feature optimization strategies in order to process our selection even better. We experiment with feature weighting and dimensionality reduction techniques and try to find out which features are most discriminative, that help in higher ranking accuracy. In other words, this step will enable us to improve the decision making ability of the model while keeping the computational efficiency at the same level.
+
+An additional crucial aspect of our plan is to validate our experimental parameter setting chosen to compute similarity and rank it. Through a series of tests of a variety of options, we can get to a more efficient, precise re-identification framework.
+
+Based on these results, we conclude that there are several domains that can benefit from our work, and our last steps include improving the performance of our model in all such domains, such as (1) improving feature selection, (2) improving similarity computations, as well as (3) introducing new evaluation metrics in order to obtain optimal results.
