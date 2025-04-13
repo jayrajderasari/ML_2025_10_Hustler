@@ -1,0 +1,9 @@
+Weekly Report:
+
+1. Tasks completed during the week:
+
+The previous week dedicated itself to studying results alongside report creation and presentation techniques as well as literature review efforts for documenting our approach effectiveness. The result analysis involved testing the effects of FFT and Wavelet Transform with PCA dimensionality reduction on previously applied feature extraction methods. These transformation methods showed their effectiveness in differentiating the individuals present in the data collection. Technological analysis included studies of how varying feature distribution characteristics affect the accuracy rates of person re-identification. This stage allowed us to identify the advantages and constraints that came with our extracted features.
+
+2. Tasks planned for the coming week:
+
+The main priority of our upcoming week involves similarity computation followed by evaluation. The project team will deploy two similarity evaluation techniques namely cosine similarity and Euclidean distance for performing effective comparison of extracted feature information. Our analysis will focus on rank accuracy evaluation because it determines the precision of correct match rankings from our model. The generation along with interpretation of Cumulative Matching Characteristic (CMC) curves will be essential because this method evaluates retrieval performance. Our selected evaluations enable the assessment of the chosen features and transformations' performance outcomes. The obtained results will let us fine-tune our method to make the model more precise and efficient. As we move ahead we will optimize the features while evaluating new assessment metrics that align with project requirements.

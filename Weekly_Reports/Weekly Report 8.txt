@@ -1,0 +1,17 @@
+Weekly Report:
+
+1.Tasks completed during the week:
+
+The team spent this week practicing model training through H2O AutoML framework operations. The main goal at first was to use AutoML tools for automated high-performing model discovery without any excessive human interaction. The experimental results turned out to be much lower than anticipated which signifies that the chosen features combined with current method are insufficient to achieve best possible performance.
+
+The AutoML models produced unsuitable solutions for solving our problem with this dataset according to our evaluation results. We have chosen to dedicate our time to creating and improving our models manually since the generated results did not meet our standards. We plan to study Gradient Boosting Machines (GBM) and XGBoost along with Random Forest together with enhanced feature engineering methods.
+
+2. Tasks planned further:
+
+We have future plans to execute the following tasks during the upcoming week.
+The development of new features includes both wavelet-transformed and PCA-based components.
+We will adjust the hyperparameters of picked models by hand to produce higher accuracy levels.
+The team must run an evaluation process on diverse models until they identify which model produces the optimal results.
+We will evaluate the model performance through top-1 together with top-2 and top-3 metrics rankings.
+
+The combination of AutoML with a hands-on modeling approach will generate superior outcomes and clearer understanding of model conduct.
